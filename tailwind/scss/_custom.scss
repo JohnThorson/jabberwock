@@ -1,0 +1,37 @@
+/*@variants focus, hover{
+  .filter-blur {
+    filter: blur(2px);
+  }
+}
+
+.btn {
+  @apply text-white font-bold p-4 m-4 rounded;
+
+  &:focus {
+    @apply bg-blue;
+  }
+}
+
+.btn-primary {
+  @apply bg-green;
+
+  &:hover {
+    @apply bg-green-dark;
+  }
+}
+
+.btn-primary-dark {
+  @apply bg-green-dark;
+  &:hover {
+    @apply bg-green-darker;
+  }
+}
+
+.alert {
+  @apply p-4 m-1 border border-grey bg-grey-lighter rounded;
+
+  &:hover {
+    @apply filter-blur;
+  }
+}*/
+
