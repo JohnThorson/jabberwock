@@ -1,17 +1,19 @@
-const sitename = 'jabberwok';
-
 module.exports = {
     project: './public',
     html: {
         dest: './public',
-        src: './src/**/*.html'
+        src: './src/**/html/**'
     },
     js: {
-        dest: './public/assets/js',
-        src: './src/**/*.js'
+        dest: './public/assets',
+        src: './src/**/javascript/**/*.js'
     },
     scss: {
-        dest: './public/assets/css',
-        src: './src/**/*.scss'
+        dest: './public/assets',
+        src: './src/**/scss/**/*.scss'
+    },
+    images: {
+        dest: './public/assets/images',
+        src: './src/images/**'
     }
 };
